@@ -6,3 +6,43 @@
 
 // Bootstrap
 @import 'bootstrap/scss/bootstrap';
+
+//FontAwesome
+$fa-font-path: '@fortawesome/fontawesome-free/webfonts';
+@import '@fortawesome/fontawesome-free/scss/fontawesome';
+@import '@fortawesome/fontawesome-free/scss/regular';
+@import '@fortawesome/fontawesome-free/scss/solid';
+@import '@fortawesome/fontawesome-free/scss/brands';
+
+
+.bg-green {
+    background-color: #f09431;
+}
+
+.btn-green {
+    border: none !important;
+    background-color: #a15a4a !important;
+    color: #fff !important;
+}
+
+.btn-blue {
+    border: none !important;
+    background-color: #f09431 !important;
+    color: #fff !important;
+}
+
+.btn-orange {
+    border: none !important;
+    background-color: #f09431 !important;
+    color: #fff !important;
+}
+
+.header-green {
+    color: #080006;
+    font-weight: bolder;
+}
+
+.task-title {
+    font-weight: 500;   // 太さ（600〜700がおすすめ）
+    font-size: 1.0rem;  // 文字サイズ（好みで調整）
+}
